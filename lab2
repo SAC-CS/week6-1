@@ -39,7 +39,6 @@ public static void main(String[] args)
        
           System.out.println("too small!!!");
     
-     else 
-         System.out.println("Invalid user input."); 
+   
 }
 }
