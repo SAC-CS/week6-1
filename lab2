@@ -1,0 +1,45 @@
+import java.util.Scanner; 
+import java.util.Random; 
+
+
+public class Guessnumber 
+{ 
+public static void main(String[] args) 
+{ 
+    String personPlay;  
+    String computerPlay = ""; 
+    int computerInt; 
+    String response; 
+
+
+    Scanner scan = new Scanner(System.in); 
+    Random generator = new Random(); 
+
+    System.out.println("Let's play guess a number\n");
+    System.out.println("Enter your number: "); 
+    
+    personPlay = scan.nextInt();
+
+
+    
+    System.out.println("Computer play is: " + computerPlay); 
+
+    
+    computerInt = generator.nextInt(10)+1; 
+
+    
+
+
+    if (personPlay == computerPlay) 
+       System.out.println("It's a correct number"); 
+   else if (personPlay > computerPlay) 
+       
+          System.out.println("too big!!!");
+   else if (personPlay < computerPlay) 
+       
+          System.out.println("too small!!!");
+    
+     else 
+         System.out.println("Invalid user input."); 
+}
+}
