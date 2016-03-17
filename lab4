@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class GuessANumberGame3 {
+
+    public static void main(String[] args) {
+		Scanner inp = new Scanner( System.in );
+		int userNum;
+		int computerNum;
+		for (int round = 1; round < 4; round++) {
+			  System.out.println("Let's play guess a number\n");
+  
+ 	 System.out.println("Enter your number: ");
+ 
+    
+    personPlay = scan.nextInt();
+
+
+  
+  
+       System.out.println("Computer play is: " + computerPlay); 
+
+
+    
+     computerInt = generator.nextInt(10)+1; 
+ 	 		
+
+		 if (personPlay == computerPlay) 
+       
+
+                	 System.out.println("It's a correct number"); 
+   
+
+ 
+            else if (max = (personPlay > computerPlay) ? personPlay : computerPlay)
+ 
+       
+          System.out.println("your number bigger computer number");
+  
+    	    else 
+       
+         System.out.println("your number smaller computer number")
+    
+		
+		}
+		
+			
+		
+        System.out.println("Bye!");
+    }
+
+}
