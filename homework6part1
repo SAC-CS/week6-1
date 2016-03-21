@@ -58,6 +58,8 @@ for(int i =1 ; i <4 ;i++)
     else 
          System.out.println("Invalid user input."); 
 }
+
+// Please explain the i++ below !
 i++
 }
 }
